@@ -1,5 +1,5 @@
 # Use the official Node.js image
-FROM node:18
+FROM public.ecr.aws/docker/library/node:18
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app
